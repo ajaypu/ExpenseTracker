@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: darkseagreen;
+  width: 650px;
+  height: 50px;
+  padding: 15px;
+  text-align: center;
+  /* border-radius: 10px; */
+}
+#container {
+  background-color: antiquewhite;
+  height: 250px;
+  width: 678px;
+  border: 1px solid black;
+  border-radius: 0 0 10px 10px;
+}
+#form-div {
+  padding: 5px 0px 10px 150px;
+  margin: 10px 20px 10px 20px;
+  background-color: ghostwhite;
+  height: 200px;
+}
+form {
+  width: 200px;
+  height: 210px;
+}
+label {
+  display: block;
+}
+input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+}
+select {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+}
+#subBtn {
+  margin-top: 10px;
+}
+#subBtn:hover {
+  color: black;
+  background-color: green;
+}
+
+.li-item {
+  border-radius: 5px;
+  list-style: none;
+  margin: 5px 0px 5px 15px;
+  padding: 5px 0px 5px 5px;
+  width: 600px;
+  height: 30px;
+  color: white;
+  background-color: rgb(161, 161, 161);
+}
+
+.edt-btn,
+.del-btn {
+  float: right;
+  height: 25px;
+  width: 102px;
+  margin: 2px;
+  border-radius: 5px;
+}
+.edt-btn:hover {
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+}
+.del-btn:hover {
+  background-color: red;
+  color: white;
+}
